@@ -1,4 +1,4 @@
-import EventBus from './event-bus.js';
+import EventBus from './src/event-bus.js';
 
 const eventBus = new EventBus();
 
