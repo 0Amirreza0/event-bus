@@ -1,0 +1,23 @@
+{
+  "name": "event-bus",
+  "version": "0.0.1",
+  "description": "Simple Javascript event bus",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "s": "npm run start",
+    "watch": "nodemon index.js",
+    "sw": "npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0Amirreza0/event-bus.git"
+  },
+  "keywords": ["js", "event", "event-bus", "pub-sub"],
+  "author": "Amirreza Saadati",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0Amirreza0/event-bus/issues"
+  },
+  "homepage": "https://github.com/0Amirreza0/event-bus#readme"
+}
