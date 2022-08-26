@@ -1,6 +1,6 @@
 {
   "name": "event-bus",
-  "version": "0.0.1",
+  "version": "0.1.0-alpha",
   "description": "Simple Javascript event bus",
   "main": "index.js",
   "scripts": {
