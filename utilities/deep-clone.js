@@ -5,17 +5,17 @@ export const deepClone = (itemToClone) => {
   if (isArray) return itemToClone.map((item) => deepClone(item));
 
   const isObject = typeof itemToClone === 'object';
-  if (isObject) {
-    const objectClone = {};
-    Object.keys(itemToClone).forEach((key) => {
-      const item = itemToClone[key];
-      objectClone[key] = deepClone(item);
-    });
 
-    return objectClone;
-  }
+  if (!isObject) return itemToClone;
 
-  return itemToClone;
+  const objectClone = {};
+
+  Object.keys(itemToClone).forEach((key) => {
+    const item = itemToClone[key];
+    objectClone[key] = deepClone(item);
+  });
+
+  return objectClone;
 };
 
 export default deepClone;
